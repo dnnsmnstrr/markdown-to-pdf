@@ -2,3 +2,5 @@ td, th {
     border: 1px solid grey;
     padding-left: 2px;
 }
+
+a[href]:after { content : "" }
