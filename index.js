@@ -8,8 +8,9 @@ const OUTPUT_PATH = `./out/${TITLE}.pdf`
 
 // Config
 const CSS_NAME = "custom"
+const isLandscape = true
 var options = {
-    paperOrientation: 'landscape',
+    paperOrientation: isLandscape ? 'landscape' : 'portrait',
     cssPath: `./css/${CSS_NAME}.css`,
     remarkable: {
         html: true,
