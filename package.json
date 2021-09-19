@@ -1,0 +1,13 @@
+{
+  "name": "markdown-to-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "markdown-pdf": "^10.0.0",
+    "remarkable-emoji": "^0.1.3"
+  }
+}
