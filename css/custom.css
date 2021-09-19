@@ -1,6 +1,8 @@
+/* https://github.com/alanshaw/markdown-pdf/issues/117#issuecomment-301878413 */
 td, th {
     border: 1px solid grey;
     padding-left: 2px;
 }
 
+/* https://github.com/alanshaw/markdown-pdf/issues/63#issuecomment-141121676 */
 a[href]:after { content : "" }
